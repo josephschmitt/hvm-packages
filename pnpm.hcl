@@ -12,7 +12,7 @@ bins = {
 source = "https://registry.npmjs.org/pnpm/-/pnpm-${version}.tgz"
 extract = "tar xz -C ${output} --strip-components=1"
 
-version "<6.0.0" {
+with-version "<6.0.0" {
   bins = {
     "pnpm": "bin/pnpm.js",
     "pnpx": "bin/pnpx.js",
