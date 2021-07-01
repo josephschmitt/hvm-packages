@@ -1,6 +1,9 @@
 name = "node"
 description = "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine."
 test = "node --version"
+// Default version to use if not overriden by config use = {} map
+version = "16.4.1"
+
 bins = {
   "node": "bin/node",
   "npm": "bin/npm",

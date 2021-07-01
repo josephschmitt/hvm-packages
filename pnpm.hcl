@@ -1,6 +1,9 @@
 name = "pnpm"
 description = "Fast, disk space efficient package manager"
 test = "pnpm --version"
+// Default version to use if not overriden by config use = {} map
+version = "6.9.1"
+
 exec = "node"
 bins = {
   "pnpm": "bin/pnpm.cjs",
