@@ -8,5 +8,5 @@ bins = {
   "go": "bin/go",
   "gofmt": "bin/gofmt",
 }
-source = "https://golang.org/dl/go${version}.${platform}.tar.gz"
+source = "https://golang.org/dl/go${version}.${os}-${arch}.tar.gz"
 extract = "tar xz -C ${output} --strip-components=1"
